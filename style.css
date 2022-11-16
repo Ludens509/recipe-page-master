@@ -32,15 +32,17 @@ html{
 }
 
 .recipe {
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 14px;
+  line-height: 17px;
   color: #4f4f4f;
   font-style: italic;
   font-weight: 500;
+  font-family: "Montserrat";
 }
 
 .sub-title-recipe {  
-  margin:0 600px 0 5px
+  margin:0 415px 0 5px
+
 }
 
 /* container of all recipe */
@@ -166,6 +168,7 @@ section.instruction div span{
   align-items: center;
   justify-content: center;
   font-size: 16px;
+  font-family: 'Playfair Display', serif;
   border-radius: 6%;
   background-color: #F2994A ;
   color: #fff;
@@ -187,7 +190,7 @@ section.instruction div span{
 
 
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 850px) {
   html{
     margin: 0;
   }
